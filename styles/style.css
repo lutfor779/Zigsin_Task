@@ -1,0 +1,34 @@
+body {
+	padding: 0 1rem;
+	background-color: white;
+}
+section {
+	margin: 3rem 0;
+}
+img {
+	width: 100%;
+}
+.title {
+	padding-bottom: 1rem;
+	border-bottom: 1px solid rgba(230, 222, 222, 0.783);
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+}
+.grid-item {
+	position: relative;
+}
+.img-title {
+	position: absolute;
+	top: 0;
+	background-color: black;
+	padding: 0.7rem;
+}
+.img-title > p {
+	color: white;
+	display: inline;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
